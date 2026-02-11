@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="《鸣潮》角色爱弥斯的精美图集画廊，包含立绘、战斗场景、概念艺术等。">
+    <title>图集画廊 - 爱弥斯 | 鸣潮</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader"></div>
+        <p>正在载入...</p>
+    </div>
+
+    <div class="main-wrapper">
+        <header class="header" id="site-header">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="爱弥斯 Logo" class="logo-img">
+                <span class="logo-text">爱弥斯</span>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link" data-page="home">首页</a>
+                <a href="about.html" class="nav-link" data-page="about">角色档案</a>
+                <a href="skills.html" class="nav-link" data-page="skills">技能详解</a>
+                <a href="gallery.html" class="nav-link active" data-page="gallery">图集画廊</a>
+                <a href="voice.html" class="nav-link" data-page="voice">语音台词</a>
+            </nav>
+            <button class="hamburger-btn" id="hamburger-btn">☰</button>
+        </header>
+
+        <main>
+            <section class="section section-gallery">
+                <div class="container">
+                    <h2 class="section-title">图集画廊</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="assets/images/art_1.png" alt="爱弥斯艺术图 1" />
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/images/art_2.png" alt="爱弥斯艺术图 2" />
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/images/art_3.png" alt="爱弥斯艺术图 3" />
+                        </div>
+                        <!-- 可根据需要添加更多图片 -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 鸣潮爱好者社区 | 爱弥斯专题站 | 此网站仅供学习交流使用</p>
+            <p>数据参考: <a href="https://mzh.moegirl.org.cn/%E7%88%B1%E5%BC%A5%E6%96%AF" target="_blank" rel="noopener noreferrer">萌娘百科 - 爱弥斯</a></p>
+        </footer>
+    </div>
+
+    <div id="lightbox-modal" class="modal lightbox-modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="lightbox-img">
+    </div>
+
+    <script src="assets/js/utils/domUtils.js"></script>
+    <script src="assets/js/utils/eventUtils.js"></script>
+    <script src="assets/js/components/Navigation.js"></script>
+    <script src="assets/js/components/Lightbox.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

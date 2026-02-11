@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 关键：更新 meta 描述和关键词，基于萌娘百科信息 -->
+    <meta name="description" content="《鸣潮》角色爱弥斯专题站。她是星炬学院的隧者适格者，现为“电子幽灵”，以“飞行雪绒”身份活跃的歌姬。热熔属性迅刀角色。">
+    <meta name="keywords" content="鸣潮, 爱弥斯, Aemeath, 飞行雪绒, 热熔, 迅刀, 星炬学院, 电子幽灵, 歌姬, 机甲, 粉发金瞳">
+    <title>爱弥斯 - 鸣潮 | 星炬学院的“电子幽灵”歌姬</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader"></div>
+        <p>正在载入...</p>
+    </div>
+
+    <div class="main-wrapper">
+        <header class="header" id="site-header">
+            <div class="logo-container">
+                <!-- 使用 P1.png 作为 Logo -->
+                <img src="assets/images/logo.png" alt="爱弥斯 Logo" class="logo-img">
+                <span class="logo-text">爱弥斯</span>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active" data-page="home">首页</a>
+                <a href="about.html" class="nav-link" data-page="about">角色档案</a>
+                <a href="skills.html" class="nav-link" data-page="skills">技能详解</a>
+                <a href="gallery.html" class="nav-link" data-page="gallery">图集画廊</a>
+                <a href="voice.html" class="nav-link" data-page="voice">语音台词</a>
+            </nav>
+            <button class="hamburger-btn" id="hamburger-btn">☰</button>
+        </header>
+
+        <main>
+            <section class="hero-section" id="hero">
+                <div class="hero-bg-container">
+                    <!-- 使用 P3 (1).jpg 作为背景 -->
+                    <img src="assets/images/bg_main.jpg" alt="爱弥斯背景" class="hero-bg-img">
+                    <div class="hero-overlay"></div>
+                    <canvas id="particle-canvas" class="hero-particles"></canvas>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">爱弥斯</h1>
+                    <p class="hero-subtitle">星炬学院 · “电子幽灵”歌姬</p>
+                    <div class="hero-buttons">
+                        <a href="about.html" class="btn btn-primary">了解角色</a>
+                        <a href="gallery.html" class="btn btn-secondary">欣赏画廊</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-intro">
+                <div class="container">
+                    <h2 class="section-title">角色档案</h2>
+                    <div class="card character-card">
+                        <!-- 使用 P2.png 作为主立绘 -->
+                        <img src="assets/images/amis_main.png" alt="爱弥斯立绘" class="character-img" />
+                        <div class="info">
+                            <p><strong>姓名：</strong>爱弥斯 (Aemeath)</p>
+                            <p><strong>别号：</strong>飞行雪绒, 小爱同学</p>
+                            <p><strong>阵营：</strong>星炬学院</p>
+                            <!-- 修正：属性为热熔 -->
+                            <p><strong>属性：</strong>热熔</p>
+                            <!-- 修正：武器为迅刀 -->
+                            <p><strong>武器：</strong>迅刀</p>
+                            <p><strong>定位：</strong>输出 / 机甲形态</p>
+                            <p class="bio">曾是星炬学院的隧者适格者，现已化为无人可见的“电子幽灵”。她以活泼俏皮的姿态与身边的人们来往，也以“飞行雪绒”的身份在校园内外歌唱，分享快乐。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-skills-preview">
+                <div class="container">
+                    <h2 class="section-title">核心能力</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item-preview">
+                            <!-- 使用 P3 (2).png 作为技能图 -->
+                            <img src="assets/images/skill_a.png" alt="长航的星辉" class="skill-icon" />
+                            <h3>长航的星辉</h3>
+                        </div>
+                        <div class="skill-item-preview">
+                            <!-- 使用 P3 (3).png 作为技能图 -->
+                            <img src="assets/images/skill_b.png" alt="构型切换" class="skill-icon" />
+                            <h3>构型切换</h3>
+                        </div>
+                        <div class="skill-item-preview">
+                            <!-- 使用 P3 (4).png 作为技能图 -->
+                            <img src="assets/images/skill_c.png" alt="星辉破界而来" class="skill-icon" />
+                            <h3>星辉破界而来</h3>
+                        </div>
+                    </div>
+                    <a href="skills.html" class="btn btn-secondary btn-full-width">查看全部技能</a>
+                </div>
+            </section>
+
+            <!-- 新增：角色特色介绍 -->
+            <section class="section section-features">
+                <div class="container">
+                    <h2 class="section-title">角色特色</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h3>双重身份</h3>
+                            <p>既是星炬学院的前隧者适格者，也是网络上活跃的人气歌手“飞行雪绒”。</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>机甲形态</h3>
+                            <p>通过“长航的星辉”能力，可召唤“隧者兵装”变身为强大的机兵形态。</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>电子幽灵</h3>
+                            <p>如今的存在形式，虽肉眼不可见，但仍能与世界互动。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 鸣潮爱好者社区 | 爱弥斯专题站 | 此网站仅供学习交流使用</p>
+            <!-- 更新：添加萌娘百科来源链接 -->
+            <p>数据参考: <a href="https://mzh.moegirl.org.cn/%E7%88%B1%E5%BC%A5%E6%96%AF" target="_blank" rel="noopener noreferrer">萌娘百科 - 爱弥斯</a></p>
+        </footer>
+    </div>
+
+    <!-- 模态框 (Lightbox) -->
+    <div id="lightbox-modal" class="modal lightbox-modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="lightbox-img">
+    </div>
+
+    <script src="assets/js/utils/domUtils.js"></script>
+    <script src="assets/js/utils/eventUtils.js"></script>
+    <script src="assets/js/components/Navigation.js"></script>
+    <script src="assets/js/components/HeroAnimation.js"></script>
+    <script src="assets/js/components/Lightbox.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
